@@ -1,3 +1,6 @@
+//Time complexity is essentially the number of times a statement executes: 
+
+
 // 1) Sum Zero
 const addToZero = (arr) => {
     for (let i=0; i< arr.length-1; i++) {
@@ -13,9 +16,9 @@ console.log(addToZero([]));
 console.log(addToZero([1]));
 console.log(addToZero([1, 2, 3]));
 console.log(addToZero([1, 2, 3, -2]));
+// Time Complexity: O(n^2) 
 
 // 2) Unique Characters
-
 const hasUniqueChars = (str) => {
 str = str.toLowerCase()
 let wordarray = [] 
@@ -29,6 +32,7 @@ let wordarray = []
 }
 console.log(hasUniqueChars("Monday"));
 console.log(hasUniqueChars("Moonday"));
+// Time Complexity: O(n^2) 
 
 // 3) Pangram Sentence
 
@@ -44,6 +48,9 @@ const isPangram = (str) => {
 console.log(isPangram("The quick brown fox jumps over the lazy dog!"));
 console.log(isPangram("I like cats, but not mice"));
 
+// Time Complexity: O(1) 
+
+
 // 4) Longest Word 
 const findLongestWord = (arr) => {
     let maxlength = arr[0].length;
@@ -54,3 +61,5 @@ const findLongestWord = (arr) => {
     } return maxlength
 }
 console.log(findLongestWord(["hi", "hello"]));
+
+// Time Complexity: O(n). We need to inspect every array element once. 
