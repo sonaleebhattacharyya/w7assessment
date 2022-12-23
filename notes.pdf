@@ -18,4 +18,6 @@ Results for the extraLargeArray
 insert 1.020087961 s
 append 3.738202 ms
 
-The time required for the append function seems to be scaling much better than 
+Doublerappend: O(1) 
+Doublerinsert: O(n)
+Only because doublerappend uses .push which is O(1) and doublerInsert uses .unshift which is O(n)
