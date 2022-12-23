@@ -1,0 +1,20 @@
+Results for the tiny array
+insert 8.702 μs
+append 9.059 μs
+
+Results for the small array
+insert 10.294 μs
+append 7.242 μs
+
+Results for the medium array
+insert 152.514 μs
+append 44.217 μs
+
+Results for the large array
+insert 8.622789 ms
+append 405.039 μs
+
+Results for the extraLargeArray
+insert 1.020087961 s
+append 3.738202 ms
+
